@@ -1,13 +1,4 @@
-import {
-  Box,
-  Divider,
-  Grid,
-  MenuItem,
-  Select,
-  Tab,
-  Tabs,
-  Typography,
-} from "@mui/material";
+import { Box, Divider, Grid, Tab, Tabs } from "@mui/material";
 import React, { useContext, useEffect, useState } from "react";
 import { RatesContext } from "../context";
 import ChangeDefaultCurrency from "./ChangeDefaultCurrency";

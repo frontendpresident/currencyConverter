@@ -19,10 +19,10 @@ const CurrencyRates = ({ rate }) => {
     >
       <Box width={400}>
         <Grid container justifyContent="flex-start">
-          <Grid xs={1} className="favorites-container">
+          <Grid item xs={1} className="favorites-container">
             {favorites && <StarIcon className="favorites-icon" />}
           </Grid>
-          <Grid xs={3}>
+          <Grid item xs={3}>
             <Typography variant="body1" className="rates-name" align="left">
               {name}
             </Typography>
